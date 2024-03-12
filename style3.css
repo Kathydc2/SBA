@@ -39,7 +39,7 @@ body{
     justify-content: space-evenly;
 }
 .BottomContainer{
-    /* border:solid purple; */
+    border:solid purple;
     height:40vh;
     margin:1em;
     display: flex;
@@ -47,7 +47,7 @@ body{
 }
 .Left1{
     Height:40vh;
-    width:auto
+    width:45%
 
 }
 .Left2{
@@ -60,10 +60,6 @@ body{
     Width:auto
 }
 .Middle2{
-    height:40vh;
-    Width:auto
-}
-.Right1{
     height:40vh;
     Width:auto
 }
