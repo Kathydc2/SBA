@@ -1,0 +1,386 @@
+
+
+/* ___________________________{DeskTop View}_______________________________________ */
+@media (max-width: 1920px) {
+    body{
+        background-color: #9290C3;
+        font-family:sans-serif; 
+        margin-top: 5em;
+    
+    }
+    .EntireContainer{
+        /* border: solid red; */
+        display: flex;
+        /* justify-content:space-around; */
+        
+    }
+    .ImgContainer{
+        /* Border: solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-left: 3em;
+        margin-top: 1em;
+        width:70%
+       
+    
+    }
+    .RightContainer{
+        border: solid rgba(0, 0, 0, 0.61);
+        background-color:white;
+        margin-right: 30%;
+        margin-left: 1em;
+        border-radius: 20%;
+    }
+    .RightContainer:hover{
+        border: solid black;
+        background-color:#891651;
+        box-shadow: 6px 8px rgba(0, 0, 0, 0.521);
+        border-radius: 20%;
+    }
+    .LeftContainer{
+        border: solid rgba(0, 0, 0, 0.61);
+        background-color:white;
+        margin-left:30%;
+        margin-right:1em;
+        border-radius: 20%;
+    }
+    .Forgot{
+        text-align: center;
+        font-size: 10pt
+    }
+    .LeftContainer:hover{
+        border: solid black;
+        background-color:#891651;
+        box-shadow: 6px 8px rgba(0, 0, 0, 0.521);
+        border-radius: 20%;
+    }
+    .ButtonContainer{
+        /* border:solid red; */
+        display: flex;
+        justify-content: center;
+       
+    }
+    button{
+        Margin: 2em;
+        border-radius: 20%;
+        border: solid #891651;
+        background-color: #E1AFD1;
+        color: black;
+        text-align:center;
+        width:30%;
+        font-weight: 700;
+        font-size: 12pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    button:hover{
+        Margin: 2em;
+        border-radius: 20%;
+        border: solid rgba(105, 209, 235, 0.425);
+        background-color: #E2BFB3;
+        color: black;
+        text-align:center;
+        width:30%;
+        font-weight: 700;
+        font-size: 12pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    img{
+        width: 25%;
+    }
+    
+    h1{
+        /* border:solid red; */
+        margin-bottom: 1em;
+        font-size: 22pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .InputContainer{
+        /* Border: solid green; */
+        display: flex;
+        justify-content: center;
+       
+    }
+    input{
+        width:60%;
+        margin-bottom: 1em;
+        background-color: #E1AFD1;
+        
+    }
+    Label {
+        margin-left: 4em;
+       
+    }
+    
+    
+    }
+
+/* _________________________[End of Desktop View]___________________________________ */
+
+/* __________________________{MidView Ipad/Tablet}__________________________________ */
+
+@media (max-width: 1690px) {
+    body{
+        background-color: #9290C3;
+        font-family:sans-serif; 
+        margin-top: 5em;
+    
+    }
+    .EntireContainer{
+        /* border: solid red; */
+        display: flex;
+        /* justify-content:space-around; */
+        
+    }
+    .ImgContainer{
+        /* Border: solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-left: 2em;
+        margin-top: 1em;
+        /* width:70% */
+       
+    
+    }
+    .RightContainer{
+        border: solid rgba(0, 0, 0, 0.61);
+        background-color:white;
+        margin-right: 30%;
+        margin-left: 1em;
+        border-radius: 20%;
+    }
+    .RightContainer:hover{
+        border: solid black;
+        background-color:#891651;
+        box-shadow: 6px 8px rgba(0, 0, 0, 0.521);
+        border-radius: 20%;
+    }
+    .LeftContainer{
+        border: solid rgba(0, 0, 0, 0.61);
+        background-color:white;
+        margin-left:30%;
+        margin-right:1em;
+        border-radius: 20%;
+    }
+    .Forgot{
+        text-align: center;
+        font-size: 10pt
+    }
+    .LeftContainer:hover{
+        border: solid black;
+        background-color:#891651;
+        box-shadow: 6px 8px rgba(0, 0, 0, 0.521);
+        border-radius: 20%;
+    }
+    .ButtonContainer{
+        /* border:solid red; */
+        display: flex;
+        justify-content: center;
+       
+    }
+    button{
+        Margin: 2em;
+        border-radius: 20%;
+        border: solid #891651;
+        background-color: #E1AFD1;
+        color: black;
+        text-align:center;
+        width:30%;
+        font-weight: 700;
+        font-size: 12pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    button:hover{
+        Margin: 2em;
+        border-radius: 20%;
+        border: solid rgba(105, 209, 235, 0.425);
+        background-color: #E2BFB3;
+        color: black;
+        text-align:center;
+        width:30%;
+        font-weight: 700;
+        font-size: 12pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    img{
+        width: 20%;
+    }
+    
+    h1{
+        /* border:solid red; */
+        margin-bottom: 0;
+        font-size: 18pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .InputContainer{
+        /* Border: solid green; */
+        display: flex;
+        justify-content: center;
+       
+    }
+    input{
+        width:60%;
+        margin-bottom: 0;
+        background-color: #E1AFD1;
+        
+    }
+    Label {
+        margin-left: 3em;
+       
+    }
+    
+    
+    }
+
+/* _________________________[MidView Ipad/Tablet END]________________________________ */
+/* ____________________________{Mobile View}_________________________________________ */
+
+@media (max-width: 1120px) {
+    body{
+        background-color: #9290C3;
+        font-family:sans-serif; 
+        margin-top: 5em;
+    
+    }
+    .EntireContainer{
+        /* border: solid red; */
+        display:flex;
+        justify-content:space-evenly
+        
+    }
+    .ImgContainer{
+        /* Border: solid blue; */
+        display: none;
+        /* justify-content: center; */
+        /* margin-left: 3em; */
+        /* margin-top: 1em; */
+        /* width:70% */
+    
+    }
+    .RightContainer{
+        border: solid rgba(0, 0, 0, 0.61);
+        background-color:white;
+        margin-right: 10%;
+        margin-left: .5em;
+        border-radius: 20%;
+
+    }
+    .RightContainer:hover{
+        border: solid black;
+        background-color:#891651;
+        box-shadow: 6px 8px rgba(0, 0, 0, 0.521);
+        border-radius: 20%;
+    }
+    .LeftContainer{
+        border: solid rgba(0, 0, 0, 0.61);
+        background-color:white;
+        margin-left:10%;
+        margin-right:.5em;
+        border-radius: 20%;
+       
+    }
+    .Forgot{
+        border:solid green;
+        text-align: center;
+        /* margin-left:4em; */
+        /* width:50%; */
+        font-size: 9pt
+    }
+
+    .LeftContainer:hover{
+        border: solid black;
+        background-color:#891651;
+        box-shadow: 6px 8px rgba(0, 0, 0, 0.521);
+        border-radius: 20%;
+    }
+    .ButtonContainer{
+        /* border:solid red; */
+        display: flex;
+        justify-content: center;
+       
+    }
+    button{
+        Margin: 2em;
+        border-radius: 20%;
+        border: solid #891651;
+        background-color: #E1AFD1;
+        color: black;
+        text-align:center;
+        width:40%;
+        font-weight: 700;
+        font-size: 12pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    button:hover{
+        Margin: 2em;
+        border-radius: 20%;
+        border: solid rgba(105, 209, 235, 0.425);
+        background-color: #E2BFB3;
+        color: black;
+        text-align:center;
+        width:40%;
+        font-weight: 700;
+        font-size: 12pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    img{
+        display: none;
+        width: 25%;
+    }
+    
+    h1{
+        /* border:solid red; */
+        margin-bottom: 0;
+        font-size: 18pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .InputContainer{
+        /* Border: solid green; */
+        display: flex;
+        justify-content: center;
+       
+    }
+    input{
+        width:80%;
+        margin-bottom: 1em;
+        background-color: #E1AFD1;
+        
+        
+    }
+    Label {
+        margin-left: 1em;
+        font-size: 14px;
+       
+    }
+    
+   
+
+ }
+/* ___________________________[Mobile View END]________________________________________ */
+
+
+/* ___________________________________General HTML Elements____________________________ */
+#Brand{
+    /* border: solid red; */
+    margin-bottom: 3em;
+    text-align: center;
+    font-size: 24pt;
+    background-color:#891652;
+}
+
+
+
+
+
+
+
+
+

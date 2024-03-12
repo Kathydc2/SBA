@@ -1,0 +1,785 @@
+
+
+/* ___________________________{DeskTop View}_______________________________________ */
+@media (max-width: 1920px) {
+    body {
+        background-color: white;
+        color:black;
+        margin: 0%;
+       
+    }
+    .animate__animated{
+        /* border:solid black; */
+        text-align: center;
+        margin-top: .7em;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color: #891652;
+      
+    }
+    .NavContainer{
+        /* border:solid black; */
+        background-color: #89165179;
+        margin-bottom: .2em;
+        display: Flex;
+        justify-content: space-evenly;
+        padding:5px;
+        align-items: center;
+        border-width: .2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1{
+        /* border: solid red; */
+        text-align: center;
+        font-size: 26pt;
+        background-color:#891652;
+    }
+    .SocialMediaContainer{
+        /* border: solid red; */
+        width:20%;
+        Display:flex;
+        justify-content:space-evenly;
+        cursor: pointer;
+        
+    }
+    .OptionsContainer{
+        /* border:solid purple; */
+        font-size: 16pt;
+        display:flex;
+        justify-content: space-around;
+        width:40%;
+    }
+    /* ---------------------------DROP DOWN --------------------------- */
+    .dropbtn {
+        background-color:transparent;
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        border:solid #240A34;
+        cursor: pointer;
+    }
+    .ProductsContainer {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color:#FFEDD8
+    }
+    .ProductsContainer:hover .dropdown-content {
+        display: block;
+    }
+    .ProductsContainer:hover .dropbtn {
+        background-color:#891652;
+    }
+    /* --------------------------Table Contents----------------------------- */
+    .MiddleContainer{
+        /* Border:solid green; */
+        display: flex;
+        justify-content: space-around;
+    
+       
+    }
+    .Table{
+        /* border:solid purple; */
+        display: flex;
+        /* height: 70%; */
+        width:40%
+    }
+
+    .Subscription {
+        list-style-type: none;
+        border: 3px solid #891652;
+        width:50%;
+        margin: .2em;
+        padding: 0;
+        transition: 0.3s;
+    }
+    .Subscription:hover {
+        box-shadow: 0 8px 12px 0 black
+    }
+    .Subscription .Row {
+    background-color: #891651c0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .Subscription li {
+        border-bottom: 1px ;
+        padding: 8px;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+    }
+    .Subscription .Price {
+        background-color: #6d219c56;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* ---------------------------Carousel----------------------- */
+
+    .carousel{
+        /* border:solid blue; */
+    }
+   
+    .Lipstick{
+        height:400px;
+        
+    }
+    .Mascara{
+        height:400px;
+    }
+    .Foundation{
+        height:400px;
+      
+    }
+    h3{
+        /* border:solid green; */
+        color:#240A34;
+        font-size: 20pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        background-color:white;
+        margin: 0%;
+       
+    }
+    .carousel-item p{
+        /* border:solid red; */
+        color:#240A34;
+        font-size: 14pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        background-color: white;
+    }
+
+    /* ------------------------Splash Pix-------------------- */
+
+    .LeftSplash1{
+        /* Border:solid red; */
+        width:50%
+        
+    }
+    .LeftSplash2{
+        /* Border:solid red; */
+        width:50%
+    }
+    .MidSplash1{
+        /* Border:solid red; */
+        width:50%;
+          
+    }
+    .MidSplash2{
+        /* Border:solid red; */
+        width:60%
+           
+    }
+    .RightSplash1{
+        /* Border:solid red; */
+        width:50%
+    }
+    .RightSplash2{
+        /* Border:solid red; */
+        width:50%
+    }
+    .BottomContainer{
+        /* border:solid red; */
+        margin-top: 1em;
+        height:30vh;
+        margin:4em;
+        /* margin-left: 5em; */
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .BottomOne, .BottomTwo, .BottomThree, .BottomFour{
+        width: 200px;
+        margin-top: 3em;
+        height: 200px;
+        border-radius: 20%;
+        overflow: hidden;
+        background-color: #FFEDD8;
+        /* display:inline-block; */
+       
+    }
+    .Text{
+        /* Border:solid black; */
+        text-align: center;
+        font-weight: 700;
+        margin-right: 5em;
+        margin-top: 9em;
+        height: 30%;
+    }
+    h4{
+        font-size: 14pt;
+    }
+    h4:hover{
+        background-color:#6d219c56;
+        
+    }
+   
+
+    
+    }
+
+/* _________________________[End of Desktop View]___________________________________ */
+
+/* __________________________{MidView Ipad/Tablet}__________________________________ */
+
+@media (max-width: 1550px) {
+    body {
+        background-color: white;
+        color:black;
+        margin: 0%;
+    }
+    .animate__animated{
+        text-align: center;
+        margin-top: .7em;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color: #5E1675;
+          
+    }
+    .NavContainer{
+        /* border:solid black; */
+        background-color: #5d167554;
+        margin-bottom: .2em;
+        display: Flex;
+        justify-content: space-evenly;
+        padding:5px;
+        align-items: center;
+        border-width: .2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1{
+        /* border: solid red; */
+        text-align: center;
+        font-size: 26pt;
+        font-family:monospace;
+        background-color:#5E1675;
+    }
+    .SocialMediaContainer{
+        /* border: solid red; */
+        width:20%;
+        Display:flex;
+        justify-content: space-evenly;
+        cursor:pointer
+    }
+    .OptionsContainer{
+        /* border:solid purple; */
+        font-size: 14pt;
+        display:flex;
+        justify-content: space-around;
+        width:30%;
+    }
+    .About, .Contacts{
+        margin-top: .2em;
+    }
+    /* ----------------------DROP DOWN ------------------------- */
+    .dropbtn {
+        background-color:transparent;
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        border:solid #240A34;
+        cursor: pointer;
+    }
+    .ProductsContainer {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #FFEDD8
+    }
+    .ProductsContainer:hover .dropdown-content {
+        display: block;
+    }
+    .ProductsContainer:hover .dropbtn {
+        background-color:#891652;
+    }
+    /* -------------------Table Contents------------------ */
+    .MiddleContainer{
+        /* Border:solid Red; */
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .Table{
+        /* border:solid purple; */
+        display:flex;
+        width:50%;
+        
+    }
+    .Subscription {
+        list-style-type: none;
+        border: 2px solid #891652;
+        margin: .2em;
+        padding: 0;
+        transition: 0.3s;
+    }
+    .Subscription:hover {
+        box-shadow: 0 8px 12px 0 black
+    }
+    .Subscription .Row {
+        background-color: #5d1675;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .Subscription li {
+        border-bottom: 1px ;
+        padding: 8px;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+    }
+    .Subscription .Price {
+        background-color: #6d219c56;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* --------------------Carousel--------------------- */
+    /* .carousel{ */
+        /* border:solid blue; */
+    /* } */
+    .Lipstick{
+        /* border: solid rgba(0, 0, 0, 0.575); */
+        height:400px
+     
+    }
+    .Mascara{
+        /* border: solid rgba(0, 0, 0, 0.575); */
+        height:400px
+    }
+    .Foundation{
+        /* border: solid rgba(0, 0, 0, 0.575); */
+        height:400px
+       
+    }
+    h3{
+        /* border:solid green; */
+        color:#240A34;
+        /* width:55%; */
+        font-size: 20pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        background-color:white;
+        margin: 0%;
+        /* padding: 0%; */
+    }
+    .carousel-item p{
+        /* border:solid red; */
+        color:#240A34;
+        /* width:55%; */
+        font-size: 14pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        background-color: white;
+    }
+    /* ----------------------Splash Pix--------------------- */
+    .LeftSplash1{
+        /* Border:solid red; */
+        display:none;
+        width:50%
+    
+    }
+    .LeftSplash2{
+        /* Border:solid red; */
+        width:100%
+    }
+    .MidSplash1{
+        /* Border:solid red; */
+        width:50%
+       
+    }
+    .MidSplash2{
+        /* Border:solid red; */
+        width:60%
+       
+    }
+    .RightSplash1{
+        /* Border:solid red; */
+        width:50%
+    }
+    .RightSplash2{
+        /* Border:solid red; */
+        width:50%
+    }
+    .BottomContainer{
+        /* border:solid red; */
+        margin-top: 1em;
+        height:30vh;
+        margin:4em;
+        /* margin-left: 5em; */
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .BottomOne, .BottomTwo, .BottomThree, .BottomFour{
+        width: 300px;
+        margin-top: 3em;
+        height: 180px;
+        border-radius: 20%;
+        overflow: hidden;
+        background-color: #FFEDD8;
+        /* display:inline-block; */
+       
+    }
+    .Text{
+        /* Border:solid black; */
+        text-align: center;
+        font-weight: 500;
+        margin-right: 3em;
+        margin-top: 9em;
+        height: 30%;
+    }
+    h4{
+        font-size: 14pt;
+    }
+    h4:hover{
+        background-color: #6d219c56;
+        
+    }
+
+ 
+    
+    }
+
+/* _________________________[MidView Ipad/Tablet END]________________________________ */
+/* ____________________________{Mobile View}_________________________________________ */
+
+@media (max-width: 1050px) {
+    body {
+        background-color: white;
+        color:black;
+        margin: 0%;
+    }
+    .animate__animated{
+        text-align: center;
+        margin-top: .7em;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color: #6962AD;
+      
+    }
+    .NavContainer{
+        /* border:solid black; */
+        background-color: #6962ad6b;
+        margin-bottom: .2em;
+        display: Flex;
+        justify-content: space-evenly;
+        padding:4px;
+        align-items: center;
+        border-width: .2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1{
+        /* border: solid red; */
+        text-align: center;
+        font-size: 26pt;
+        font-family:monospace;
+        background-color:#6962AD;
+    }
+    .SocialMediaContainer{
+        /* border: solid red; */
+        width:30%;
+        Display:none;
+        justify-content: space-evenly;
+      
+    }
+    .OptionsContainer{
+        /* border:solid purple; */
+        display:flex;
+        justify-content:space-around;
+        width:60%
+    }  
+    .About, .Contacts{
+        margin-top: .2em;
+        font-size: 16px;
+    }
+    /* ---------------------DROP DOWN ------------------------------ */
+    .dropbtn {
+        background-color:transparent;
+        font-size: 16px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        border:solid #240A34;
+        cursor: pointer;
+    }
+    .ProductsContainer {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #FFEDD8
+    }
+    .ProductsContainer:hover .dropdown-content {
+        display: block;
+    }
+    .ProductsContainer:hover .dropbtn {
+        background-color:#891652;
+    }
+    /* ---------------Table Contents----------------------------- */
+    .MiddleContainer{
+        /* Border:solid green; */
+        display:contents;
+        justify-content: none;
+        margin: 3em;
+    }
+    
+    .Table {
+        /* float: left; */
+        display: flex;
+        width:100%;
+
+       
+    }
+    .Subscription {
+        list-style-type:none;
+        border: solid #891652;
+        margin: .1em;
+        padding: 0;
+        transition: 0.3s;
+    }
+    .Subscription:hover {
+        box-shadow: 0 8px 12px 0 black
+    }
+    .Subscription .Row {
+        background-color: #6d219c94;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .Subscription li {
+        border-bottom: 1px ;
+        padding: 4px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+    }
+    .Subscription .Price {
+        background-color: #6962ad6b;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* --------------------Carousel---------------------------- */
+
+    .carousel{
+        /* border:solid blue; */
+        width:50%;
+        margin-left:25%
+        
+    }
+    .Lipstick{
+        /* border: solid rgba(0, 0, 0, 0.575); */
+        width:535px;
+        height:300px
+       
+    }
+    .Mascara{
+        /* border: solid rgba(0, 0, 0, 0.575); */
+        width:535px;
+        height:300px
+    }
+    .Foundation{
+        /* border: solid rgba(0, 0, 0, 0.575); */
+        width:535px;
+        height:300px
+           
+    }
+    h3{
+        /* border:solid green; */
+        color:#240A34;
+        /* width:55%; */
+        font-size: 16pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        background-color:white;
+        margin-top:6em;
+        /* padding: 0%; */
+    }
+    .carousel-item p{
+        /* border:solid red; */
+        color:#240A34;
+        /* width:55%; */
+        font-size: 12pt;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        background-color: white;
+    }
+    /* -----------------------Splash Pix-------------------------- */
+
+    .LeftSplash1{
+        /* Border:solid red; */
+        display:none;
+        width:50%
+    
+    }
+    .LeftSplash2{
+        /* Border:solid red; */
+        width:100%
+    }
+    .MidSplash1{
+        /* Border:solid red; */
+        display:none;
+        width:50%
+       
+    }
+    .MidSplash2{
+        /* Border:solid red; */
+        width:100%
+       
+    }
+    .RightSplash1{
+        /* Border:solid red; */
+        display:none;
+        width:50%
+    }
+    .RightSplash2{
+        /* Border:solid red; */
+        width:100%
+    }
+    .BottomContainer{
+        /* border:solid red; */
+        margin-top: 1em;
+        height:30vh;
+        margin:1em;
+        margin-left: .5em;
+        display: flex;
+        justify-content:space-between
+       
+    }
+    .BottomOne, .BottomTwo, .BottomThree, .BottomFour{
+        display: none;
+        width: 200px;
+        margin-top: 3em;
+        height: 200px;
+        border-radius: 20%;
+        overflow: hidden;
+        background-color: #FFEDD8;
+        /* display:inline-block; */
+       
+    }
+    h4{
+        font-size: 14pt;
+    }
+    h4:hover{
+        background-color:#6d219c56;
+        
+    }
+    .Text{
+        /* Border:solid black; */
+        text-align: center;
+        font-weight: 500;
+        font-size: 12pt;
+        margin-right: 0em;
+        margin-top: 6em;
+        height: 30%;
+    }
+   
+ 
+ }
+/* ___________________________[Mobile View END]________________________________________ */
+
+
+/* ___________________________________General HTML Elements____________________________ */
+    .Ad{
+    /* border: solid red; */
+        height:5vh
+    }
+
+    .IconBtnContainer{
+        /* border: solid green */
+    }
+
+    .Logo{
+        /* border: solid green; */
+        height:40px;
+    }
+    .SMedia{
+        height:30px;
+        width:30px
+    }
+    .Cart, .Join{
+        font-size: 12pt;
+        color:white;
+        background-color: #240A34;
+        border-radius: 15%;
+    }
+
+    .TopContainer{
+        border:solid rgb(85, 69, 85);
+        display: flex;
+        /* justify-content: space-evenly; */
+        margin:1em;
+    
+    }
+  
+    .LeftSplash, .MidSplash, .RightSplash{
+        display: flex;
+        /* opacity: 50%; */
+
+    }
+
+    .Envelope {
+        /* Border:solid black;  */
+        Width:105%;
+        
+    }
+    .Vegan{
+        width:100%;
+    
+    }
+    .Shipping{
+        width:95%;
+        
+    }
+    .Rating{
+        width:100%;
+        
+       
+    }
+
+
+
+
+
+
+
+
+
+
