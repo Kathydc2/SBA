@@ -2,12 +2,6 @@
 
 /* ___________________________{DeskTop View}_______________________________________ */
 @media (max-width: 1920px) {
-    body {
-        background-color: white;
-        color:black;
-        margin: 0%;
-       
-    }
     .animate__animated{
         /* border:solid black; */
         text-align: center;
@@ -237,11 +231,6 @@
 /* __________________________{MidView Ipad/Tablet}__________________________________ */
 
 @media (max-width: 1550px) {
-    body {
-        background-color: white;
-        color:black;
-        margin: 0%;
-    }
     .animate__animated{
         text-align: center;
         margin-top: .7em;
@@ -471,11 +460,6 @@
 /* ____________________________{Mobile View}_________________________________________ */
 
 @media (max-width: 1050px) {
-    body {
-        background-color: white;
-        color:black;
-        margin: 0%;
-    }
     .animate__animated{
         text-align: center;
         margin-top: .7em;
